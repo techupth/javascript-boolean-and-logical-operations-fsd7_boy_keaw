@@ -6,11 +6,13 @@ let isWeekday;
 let hasBoughtProductFromITCategory;
 let hasAttendedDiscountEvent;
 let isPlatinum;
+let memberLevel = "Platinum";
 lastMonthPaidMoreThan4000 = 4001;
 isWeekday = true;
 hasBoughtProductFromITCategory = false;
 hasAttendedDiscountEvent = true;
-isPlatinum = false;
+memberLevel = "Gold";
+isPlatinum = memberLevel == "Platinum";
 
 let hasPromotion;
 hasPromotion =
